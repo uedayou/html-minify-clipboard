@@ -1,0 +1,12 @@
+{
+  "name": "html-minify-clipboard",
+  "version": "1.0.1",
+  "description": "This extension can minify html codes in the selected text. The minified html codes will be copied in clipboard.",
+  "scripts": {
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build"
+  },
+  "devDependencies": {
+    "webextension-toolbox": "latest"
+  }
+}

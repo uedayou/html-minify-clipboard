@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "HTML Minify Clipboard",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "html-minify",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "This extension can minify html codes in the selected text. The minified html codes will be copied in clipboard.",
+    "description": "The description of the application"
+  }
+}
