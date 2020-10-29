@@ -31,17 +31,13 @@ const defaults = {
 };
 
 browser.contextMenus.create({
-    "title" : "Minify the selected HTML codes",
-    "type"  : "normal",
-    "contexts" : ["selection"],
-    "onclick" : copytext()
-});
-
-function copytext(info, tab){
-    return function(info, tab){
+    title : "Minify the selected HTML codes",
+    type  : "normal",
+    contexts : ["selection"],
+    onclick  : function(){
         saveToClipboard();
     }
-}
+});
 
 async function saveToClipboard() {
     const tabId = browser.tabs.getCurrent().id;
